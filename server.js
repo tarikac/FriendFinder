@@ -10,13 +10,15 @@ var app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-
+app.get("/", function(req,res){
+    res.sendFile(path.join(__dirname, "public/index.html"))
+})
 app.get("/home", function(req, res) {
-    res.sendFile(path.join(__dirname, "home.html"))
+    res.sendFile(path.join(__dirname, "public/home.html"))
 })
 
 app.get("/survey", function(req, res) {
-    res.sendFile(path.join(__dirname, "survey.html"))
+    res.sendFile(path.join(__dirname, "public/survey.html"))
 })
 
 app.listen(PORT, function() {

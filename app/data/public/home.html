@@ -4,9 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Friend Finder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body {
+            background-image: linear-gradient(to bottom right, #f1f0de, #54404b);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 100%;
+            margin: 0;
+        
+        }
+
+    #img_container{
+            background-image: url("../images/chicagofriends.jpg");
+            background-size: cover;
+            height: 600px;
+            margin-top: 20px;
+        }
+        </style>
 </head>
+
 <body>
-    <p>This will be the main page!</p>
+    <div class="container">
+        <div id="img_container"><center>
+            <h1>Welcome to our Friend Finder</h1>
+            <h4>Don't go out alone. Take our survey to find your match. </h4>
+            <a class="waves-effect waves-light btn-large grey" href="/survey"><i class="material-icons left">group_add</i>Survey</a> 
+            </center>  
+        </div>
+    </div>
 </body>
 </html>

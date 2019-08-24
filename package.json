@@ -4,7 +4,7 @@
   "description": "Help match up with a special friend",
   "main": "server.js",
   "scripts": {
-    "start": "nodes server.js"
+    "start": "nodes server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

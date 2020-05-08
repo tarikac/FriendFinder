@@ -19,7 +19,9 @@
   "homepage": "https://github.com/tarikac/FriendFinder#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^1.19.1",
+    "kind-of": "^6.0.3",
+    "minimist": "^1.2.5",
+    "nodemon": "^2.0.3",
     "path": "^0.12.7"
   }
 }
